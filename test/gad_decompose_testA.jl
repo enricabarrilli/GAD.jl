@@ -77,7 +77,7 @@ function multiplicities(M; max_it=10, cluster_tol=1e-2, verbose=false)
         _, Z_, E = schur(Mrnd)
     
 #Expected number of clusters in input
-        ms = cluster(E, 2)
+        ms = cluster(E, 5)
 
 
         Z = Z_           
@@ -85,7 +85,7 @@ function multiplicities(M; max_it=10, cluster_tol=1e-2, verbose=false)
     end
 
     if Z === nothing
-        error("multiplicities: nessuna decomposizione trovata in $max_it tentativi")
+        error("multiplicities: no decomposition found in $max_it attempts")
     end
 
     return ms, Z, size(M[1], 1)

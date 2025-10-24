@@ -1,6 +1,8 @@
 #Figure (A): (n, d, k) = (9, 3, [0, 0, 0, 0, 0])
 
-include("../src/GAD.jl")
+#include("../src/GAD.jl")
+
+using GAD
 
 using MultivariateSeries, DynamicPolynomials
 

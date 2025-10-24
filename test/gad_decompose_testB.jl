@@ -1,4 +1,4 @@
-#Figure B: (n, d, k) = (2, 5, [1, 1, 0])
+#Figure (B): (n, d, k) = (2, 5, [1, 1, 0])
 
 include("../src/GAD.jl")
 

@@ -1,3 +1,7 @@
+export gad_decompose
+"""
+  This function computes ...
+"""
 function gad_decompose(F)
     
     X = variables(F)

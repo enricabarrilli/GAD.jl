@@ -2,8 +2,10 @@ export gad_decompose
 """
   This function computes ...
 
-Example
-------
+## Example
+```
+   ...
+```
 
 """
 function gad_decompose(F)

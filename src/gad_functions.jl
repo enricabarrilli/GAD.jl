@@ -2,7 +2,7 @@ using LinearAlgebra, DynamicPolynomials, MultivariateSeries
 
 
 
-function mult_matrices(s::MultivariateSeries.Series{C,D}, rkf::Function=eps_rkf(1.e-4)) where {C,D}
+function mult_matrices(s::MultivariateSeries.Series{C,D}, rkf::Function=eps_rkf(1.e-3)) where {C,D}
     d  = maxdegree(s)
     X = variables(s)
     d0 = div(d-1,2)

@@ -48,6 +48,8 @@ The algorithm returns three vectors:
 - `L`, containing the linear forms \(\ell_i\);
 - `mu`, containing the multiplicities of the corresponding points.
 
+![Example](gad.png)
+
 
 ## Dependencies
 * TensorDec

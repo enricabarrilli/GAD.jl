@@ -1,0 +1,12 @@
+name = "GAD"
+uuid = "7ccace4b-b99f-4aa0-9bae-c5ca3578d0ba"
+authors = ["Enrica Barrilli <enrica.barrilli@inria.fr>"]
+version = "0.1.0"
+
+[deps]
+Clustering = "aaaa29a8-35af-508c-8bc3-b662a17a0fe5"
+Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
+DynamicPolynomials = "7c1d4256-1411-5781-91ec-d7bc3513ac07"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+MultivariateSeries = "08acae6c-c1bf-11e9-0c27-6b1945f8789b"
+TensorDec = "7072bc9d-1451-47b4-b0a6-486e8452399b"
